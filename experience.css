@@ -16,7 +16,7 @@
 .mass-blue{width:13%;height:320px;right:-5%;top:94px;background:linear-gradient(145deg,#438bcb,#145697);clip-path:polygon(0 25%,100% 0,100% 74%,0 100%)}
 .mass-outline{width:44%;height:320px;right:-5%;top:60px;border-top:1px solid #5992c766;border-bottom:1px solid #5992c766;transform:skewY(-35deg)}
 .mass-ticks{width:90px;height:38px;right:var(--pad);top:38px;background:repeating-linear-gradient(90deg,#397bb9 0 4px,transparent 4px 9px);opacity:.55;clip-path:polygon(0 0,100% 0,100% 16%,0 16%,0 42%,64% 42%,64% 58%,0 58%,0 84%,36% 84%,36% 100%,0 100%)}
-.hero>.tech-mass{z-index:2;inset:0 0 0 60%}
+.hero>.tech-mass{z-index:0;inset:0 0 0 60%}
 .hero .mass-ice{width:75%;height:280px;right:-35%;top:-65px;opacity:.58}
 .hero .mass-white{width:62%;height:330px;right:-22%;top:-70px;opacity:.88}
 .hero .mass-blue{width:20%;height:170px;right:-8%;top:auto;bottom:160px}
