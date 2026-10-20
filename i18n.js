@@ -28,6 +28,7 @@
     '无不实现人之美好。': 'realizing the best of humanity.',
     '理解、认知宇宙时空的无限信息。': 'To understand and comprehend the infinite information of cosmic spacetime.',
     '和干涉、改变实体世界的无穷能力。': 'And the boundless power to intervene in and reshape the physical world.',
+    '干涉、改变实体世界的无穷能力。': 'The boundless power to intervene in and reshape the physical world.',
     '我们的理想': 'Our vision',
     '引力视界': 'Gravitational horizon',
     '黑洞与公式': 'Black hole and equations',
@@ -169,7 +170,7 @@
     const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
     let node;
     while ((node = walker.nextNode())) {
-      if (node.parentElement?.closest('script,style,svg,noscript,.language,.brand-dot,.opening-dot')) continue;
+      if (node.parentElement?.closest('script,style,svg,noscript,.language,.brand-dot,.opening-dot,.footer-brand>span')) continue;
       let values = textPairs.get(node);
       if (!values || !Object.values(values).includes(node.nodeValue)) {
         values = pair(node.nodeValue);
